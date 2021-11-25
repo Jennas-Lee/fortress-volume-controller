@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.volume-controller {
+    position: relative;
+}
+
+#volume-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    color: #0000ff;
+}
+
+#volume-bar {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+#volume-dot {
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #0000ff;
+    position: absolute;
+    top: 48.5px;
+    left: 120px;
+    z-index: 1;
+}
